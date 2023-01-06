@@ -29,7 +29,7 @@ module.exports = function (app, passport) {
       user: req.user,
     });
   });
-  app.get("/image3", function (req, res) {
+  app.get("/image", function (req, res) {
     res.render("image3", {
       user: req.user,
     });
