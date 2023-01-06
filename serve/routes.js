@@ -16,7 +16,7 @@ module.exports = function (app, passport) {
 		});
 	});
   
-  app.get("/images/image1", function (req, res) {
+  app.get("/image1", function (req, res) {
     res.render("image1", {
       user: req.user,
     });
@@ -24,12 +24,12 @@ module.exports = function (app, passport) {
   
   
   
-  app.get("/images/image2", function (req, res) {
+  app.get("/image2", function (req, res) {
     res.render("image2", {
       user: req.user,
     });
   });
-  app.get("/images/image3", function (req, res) {
+  app.get("/image3", function (req, res) {
     res.render("image3", {
       user: req.user,
     });
